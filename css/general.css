@@ -55,15 +55,35 @@ header {
     width: 100%;
     padding: 0rem;
     overflow:hidden;
-    background-color:#333366;
+    background-color:#000033;
 }
 
 h1 {
     font-family: Helvetica;
-    font-size: 1.7rem;
+    font-size: 2rem;
     background-color: #cccc99;
     color: #333300;
     padding: 1rem 
+}
+
+h2 {
+    display: block;
+    font-family: Helvetica;
+    line-height: 1.5rem;
+    padding: 1rem 0rem;
+    border-bottom: solid #999999 .1rem;
+    color: #333300;
+}
+
+p {
+    font-family: Helvetica;
+    line-height: 1.5rem;
+}
+
+.dot {
+    font-size: 0.1rem;
+    padding: 2.5rem;
+    color: white;
 }
 
 .billboard {
@@ -82,7 +102,7 @@ h1 {
 .logo {
     height: 3.5rem;
     width: auto;
-    background-color: #333366;
+    background-color: #000033;
     padding: .5rem 5%;
 }
 
@@ -93,10 +113,20 @@ h1 {
     background-color: #cccc99;
 }
 
+li {
+    color: #333300;
+    line-height: 1.5rem;
+}
+
 a {
     text-decoration: none;
     color: #333300;
+    font-family: Helvetica;
+    padding: 5rem;
+    display:inline-block;
 }
+
+
 
 .nav:hover {
     color: #333300;
