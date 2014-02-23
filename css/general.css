@@ -59,7 +59,7 @@ header {
 }
 
 body {
-    margin: 0rem 0rem 0rem 0.5rem
+    margin: 0rem 0rem 0rem 1.5rem
 }
 
 h1 {
@@ -88,6 +88,13 @@ h3 {
     margin: 1rem 0rem 0rem 0rem;
 }
 
+h4 {
+    font-family: helvetica;
+    color: #cccccc;
+    font-weight:normal;
+    font-size: 0.8rem;
+}
+
 p {
     font-family: Helvetica;
     line-height: 1.5rem;
@@ -98,9 +105,14 @@ p {
     padding: 0rem;
 }
 
-.dot {
+.space {
     font-size: 0.1rem;
     padding: 2.5rem;
+    color: white;
+}
+
+.space-2 {
+    font-size: 0.1rem;
     color: white;
 }
 
@@ -129,12 +141,13 @@ p {
     padding: 0.6rem 1rem;
     margin: 0.2rem;
     background-color: #cccc99;
+    
 }
 
 li {
-    color: #333300;
+    color: #669999;
     line-height: 1.5rem;
-    font-weight: bold;
+    font-weight: normal;
     font-family: Helvetica;
 }
 
@@ -142,18 +155,30 @@ a {
     text-decoration: none;
     color: #333300;
     font-family: Helvetica;
-    padding: 5rem;
-    display:inline-block;
+}
+
+.link {
+    color: #669999;
+}
+
+.register {
+    background-color: #669999;
+    padding: 0.6rem 1rem;
+}
+
+.register:hover {
+    color: #669999;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff, #f1f3f6);
 }
 
 span {
-    color: 6699cc;
+    color: #333300;
     font-style: italic;
 }
 
 .nav:hover {
     color: #333300;
-    background-color: #fff;
     background-image: linear-gradient(to bottom, #fff, #f1f3f6);
 }
 
@@ -167,7 +192,22 @@ span {
     padding: 0 0 1.5rem 0;
 }
 
+.border-top {
+    border-top: solid #999999 .1rem;
+    padding: 0.5rem;
+    color: #cccccc;
+}
+
 figure {
     font-style: italic;
-    margin: 0.3rem 6rem 0rem;
+    margin: 0.6rem 8rem 0rem;
+}
+
+footer {
+    background-color: #666666;
+    padding: 0.2rem 1rem
+}
+
+.source {
+    color: white;
 }
