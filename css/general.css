@@ -60,8 +60,9 @@ header {
 
 h1 {
     font-family: Helvetica;
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     background-color: #cccc99;
+    color: #333300;
     padding: 1rem 
 }
 
@@ -79,4 +80,16 @@ h1 {
     width: auto;
     background-color: #333366;
     padding: .5rem 5%;
+}
+
+.nav {
+    float:left;
+    padding: 0.6rem 1rem;
+    margin: 0.2rem;
+    background-color: #cccc99;
+}
+
+a {
+    text-decoration: none;
+    color: #333300;
 }
