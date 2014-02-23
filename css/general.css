@@ -107,13 +107,14 @@ p {
 
 .space {
     font-size: 0.1rem;
-    padding: 2.5rem;
+    padding: 2.7rem;
     color: white;
 }
 
 .space-2 {
     font-size: 0.1rem;
     color: white;
+    padding: 1rem 0rem;
 }
 
 .billboard {
