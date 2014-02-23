@@ -50,3 +50,24 @@ html {
     font-size: 100%; /* 100% = 16px = 1rem */
     font-family: Georgia, Times, serif;
 }
+
+.header {
+    width: 100%;
+    padding: 0rem;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 1.1rem;
+    background-color: #cccc99;
+    padding: 1rem 
+}
+
+.billboard {
+    overflow:hidden;
+    background-image: url(../images/enterprise.jpg);
+    background-repeat:no-repeat;
+    background-color: #333366;
+    background-position: center center;
+    background-size: 40rem;
+}
