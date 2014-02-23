@@ -51,9 +51,11 @@ html {
     font-family: Georgia, Times, serif;
 }
 
-.header {
+header {
     width: 100%;
     padding: 0rem;
+    overflow:hidden;
+    background-color:black;
 }
 
 h1 {
@@ -65,9 +67,16 @@ h1 {
 
 .billboard {
     overflow:hidden;
-    background-image: url(../images/enterprise.jpg);
-    background-repeat:no-repeat;
+    background-image: url(../images/avenue-road-arts-school.jpg.jpg);
+    background-repeat: no-repeat;
     background-color: #333366;
     background-position: center center;
     background-size: 40rem;
+}
+
+.logo {
+    height: 3.5rem;
+    width: auto;
+    background-color: #333366;
+    padding: .5rem 5%;
 }
