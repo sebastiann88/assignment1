@@ -199,6 +199,10 @@ span {
     color: #cccccc;
 }
 
+hr {
+   size: .1rem;
+}
+
 figure {
     font-style: italic;
     margin: 0.6rem 8rem 0rem;
