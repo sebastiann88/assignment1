@@ -145,10 +145,11 @@ p {
 }
 
 li {
-    color: #669999;
+    color: #333300;
     line-height: 1.5rem;
     font-weight: normal;
     font-family: Helvetica;
+    font-style: italic;
 }
 
 a {
