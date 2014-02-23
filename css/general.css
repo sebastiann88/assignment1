@@ -55,7 +55,7 @@ header {
     width: 100%;
     padding: 0rem;
     overflow:hidden;
-    background-color:black;
+    background-color:#333366;
 }
 
 h1 {
@@ -75,6 +75,10 @@ h1 {
     background-size: 40rem;
 }
 
+.billboard-img {
+    width: 75%;
+}
+
 .logo {
     height: 3.5rem;
     width: auto;
@@ -92,4 +96,10 @@ h1 {
 a {
     text-decoration: none;
     color: #333300;
+}
+
+.nav:hover {
+    color: #333300;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff, #f1f3f6);
 }
