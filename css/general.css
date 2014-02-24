@@ -25,7 +25,7 @@ Reminder: the child determines the height of the parent element.
 @-moz-viewport { width: device-width; scale: 1; } /* Firefox */
 @-ms-viewport { width: device-width; scale: 1; } /* Microsoft */
 @-o-viewport { width: device-width; scale: 1; } /* Opera */
-@-webkit-viewport { width: device-width; scale: 1; } ?* Safari % Chrome */
+@-webkit-viewport { width: device-width; scale: 1; } /* Safari % Chrome */
 @viewport { width: device-width; scale: 1; } /* w3C Standard */
 
 /* Adjust the padding so it draws on the box interior */
